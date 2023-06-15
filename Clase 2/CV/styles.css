@@ -1,0 +1,10 @@
+body{
+    background-color:powderblue
+}
+section {
+    display: flex;
+}
+.quien-soy {
+    background: white;
+    border: groove;
+}
