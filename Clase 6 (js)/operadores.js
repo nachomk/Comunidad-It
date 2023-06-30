@@ -28,5 +28,5 @@ let promedioDelAlumno = 4;
 let promedio = promedioDelAlumno >= promedioParaAprobar;
 let puntosFaltantes = promedioParaAprobar - promedioDelAlumno;
 
-console.log(`¿El alumno tiene un promedio mayor o igual que el requerido? ` +promedio)
+console.log(`¿El alumno tiene un promedio mayor o igual que el requerido?:` +promedio)
 console.log(`Al alumno le faltaron ${puntosFaltantes} puntos para aprobar`)
