@@ -11,6 +11,7 @@
 // }
 
 // 3) Suma de los primeros 50 números naturales
+
 let numero = 1;
 let contador = 0;
 
