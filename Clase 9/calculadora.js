@@ -1,16 +1,14 @@
 let calculadora = {
-    numero_1 : 16,
-    numero_2 : 5,
-    sumar: function () {
+    sumar: function (num1,num2) {
         console.log(`La suma de ambos números es igual a ${this.numero_1 + this.numero_2}`)
     },
-    restar: function () {
+    restar: function (num1,num2) {
         console.log(`La diferencia de ambos números es igual a ${this.numero_1 - this.numero_2}`)
     },
-    multiplicacion: function () {
+    multiplicacion: function (num1,num2) {
         console.log(`El producto de ambos números es igual a ${this.numero_1 * this.numero_2}`)
     },
-    division: function () {
+    division: function (num1,num2) {
         console.log(`La división de ambos números es igual a ${this.numero_1 + this.numero_2}`)
     }
 }
