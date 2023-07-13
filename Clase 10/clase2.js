@@ -1,7 +1,13 @@
 const personas = [{
     nombre: 'Galo',
-    edad: 29
+    añoDeNacimiento: 2000
 },{
     nombre: 'Enzo',
-    edad: 18
+    añoDeNacimiento: 1998
 }]
+
+personas.forEach ((personas) => {
+    personas.edad = 2023 - personas.añoDeNacimiento;
+})
+
+console.log(personas)   
