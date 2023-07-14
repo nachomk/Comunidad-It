@@ -6,8 +6,8 @@ const personas = [{
     añoDeNacimiento: 1998
 }]
 
-personas.forEach ((personas) => {
-    personas.edad = 2023 - personas.añoDeNacimiento;
+personas.forEach ((persona) => {
+    persona.edad = 2023 - persona.añoDeNacimiento;
 })
 
-console.log(personas)   
+console.log(personas);   
