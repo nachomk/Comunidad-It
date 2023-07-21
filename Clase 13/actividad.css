@@ -1,0 +1,31 @@
+#inputEmail {
+    position: relative;
+    top: 27px;
+    right: 42px;
+}
+#labelContraseña {
+    position: relative;
+    top: 60px;
+    right: 223px;
+}
+#inputContraseña {
+    position: relative;
+    top: 83px;
+    right: 300px;
+}
+#botonRegistrarse {
+    position: relative;
+    width: 177px;
+    top: 120px;
+    right: 480px
+}
+#tituloUsuarios {
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+}
+li {
+    position: relative;
+    left: 200px;
+    bottom: 90px;
+}
