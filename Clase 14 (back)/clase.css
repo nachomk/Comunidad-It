@@ -1,0 +1,10 @@
+section {
+    display: flex; 
+}
+article {
+    border: solid .5px;
+}
+img {
+    width: 80px;
+    height: 80px;
+}
