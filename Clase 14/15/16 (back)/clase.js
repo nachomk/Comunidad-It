@@ -66,6 +66,7 @@ async function mostrarInfoDeUsuario (idAlbum) {
 }
 mostrarInfoDeUsuario()
 
+
 async function mostrarFotoTitulo (id) {
     try {
         let response = await fetch(`https://jsonplaceholder.typicode.com/photos?albumId=${id}`)
@@ -87,6 +88,7 @@ async function mostrarFotoTitulo (id) {
     }
 }
 mostrarFotoTitulo()
+
 
 
 async function mostrarDatos() {
