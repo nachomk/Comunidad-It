@@ -87,7 +87,7 @@ async function mostrarFotoTitulo (id) {
 
     }
 }
-mostrarFotoTitulo()
+mostrarFotoTitulo();
 
 
 
@@ -107,4 +107,4 @@ async function mostrarDatos() {
     const result = await response.json();
     console.log(result)
 }
-mostrarDatos()
+mostrarDatos();
