@@ -21,4 +21,12 @@ function vaciarListas() {
     tareas = [];
 }
 
-module.exports = { mostrarTareas, agregarTareas, vaciarListas }
+function eliminarUltTarea() {
+    tareas.pop()
+}
+
+function eliminarUnaTarea(indice, cantidad) {
+    tareas.splice(indice,cantidad)
+}
+
+module.exports = { mostrarTareas, agregarTareas, vaciarListas, eliminarUltTarea, eliminarUnaTarea }
