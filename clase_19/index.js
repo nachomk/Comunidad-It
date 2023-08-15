@@ -3,7 +3,7 @@ const app = express();
 let usuarios = [
     {id:1, nombre: 'galo', apellido: 'vazquez', profesion: 'programador'},
     {id:2, nombre: 'lucas', apellido: 'gomez', profesion: 'arquitecto'},
-    {id:3, nombre: 'fran', apellido: 'martinez', profesion: 'contador'},
+    {id:3, nombre: 'francisco', apellido: 'martinez', profesion: 'contador'},
     {id:4, nombre: 'tobias', apellido: 'lopez', profesion: 'programador'},
     {id:5, nombre: 'carlos', apellido: 'garcia', profesion: 'abogado'}
 ];
