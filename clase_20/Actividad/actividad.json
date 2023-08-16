@@ -1,0 +1,20 @@
+[
+    {
+        "nombre": "pipo",
+        "animal": "gato",
+        "edad": "2",
+        "perdido": false
+    },
+    {
+        "nombre": "lilo",
+        "animal": "perro",
+        "edad": "1",
+        "perdido": false
+    },
+    {
+        "nombre": "tito",
+        "animal": "cobayo",
+        "edad": "3",
+        "perdido": false
+    }
+]

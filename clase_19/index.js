@@ -38,7 +38,7 @@ app.get ('/usuarios/:id', (req, res) => {
 //     const params = request.params;
 //     console.log(params);
 //     console.log('Recibimos una petición en el Perfil');
-//     response.send(`Bienvenido, ${params.id}`);
+//     response.send(`Bienvenido, ${params.id}`); //Muestra un mensaje dentro de la página
 // })
 
 // app.get('/usuarios', function(request,response) {
@@ -46,5 +46,5 @@ app.get ('/usuarios/:id', (req, res) => {
 //     console.log(request.query);
 //     const { nombre, apellido, edad } = request.query // CON DESTRUCTURING
 //     console.log( nombre, apellido, edad )
-//     response.json({ nombre, apellido, edad });
+//     response.json({ nombre, apellido, edad }); // //Mostrar nombre, apellido y edad en formato JSON
 // })
