@@ -9,12 +9,24 @@
         "nombre": "lilo",
         "animal": "perro",
         "edad": "1",
-        "perdido": false
+        "perdido": true
     },
     {
         "nombre": "tito",
         "animal": "cobayo",
         "edad": "3",
+        "perdido": false
+    },
+    {
+        "nombre": "mateo",
+        "animal": "caballo",
+        "edad": "3",
+        "perdido": true
+    },
+    {
+        "nombre": "fito",
+        "animal": "perro",
+        "edad": "5",
         "perdido": false
     }
 ]

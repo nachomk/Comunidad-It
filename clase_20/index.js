@@ -3,22 +3,20 @@ const app = express();
 const fs = require('fs/promises');
 
 
+//CONTROLLERS
+const userController = require("./Controllers/UserController");
+
+
 
 //MIDDLEWARE
-app.use(express.json());
+app.use(express.json()); // No podemos recibir sin esto los datos de un PUT PATCH
+
 
 app.get('/', (req,res) => {
     res.send('Esto es una prueba');
 });
 
-app.get('/usuarios', async (req,res) => {
-    const { genero } = req.query
-    const data = await fs.readFile("./usuarios.json", "utf-8"); //
-    const usuarios = JSON.parse(data)
-    const usuariosFiltrados = usuarios.filter((usuario) => usuarios.genero === genero);
-    console.log(JSON.parse(data))
-    res.json(usuarios)
-});
+app.get('/usuarios', userController.getUsers);
 
 app.post('/usuarios', async (req,res) => {
     const body = req.body

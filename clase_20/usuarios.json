@@ -1,9 +1,9 @@
 [
     {
-    "nombre": "Galo",
-    "apellido": "Gomez",
-    "edad": 21,
-    "genero": "masculino"
+        "nombre": "Galo",
+        "apellido": "Gomez",
+        "edad": 21,
+        "genero": "masculino"
     },
     {
         "nombre": "Bianca",
