@@ -1,0 +1,20 @@
+[
+    {
+    "nombre": "Bianca",
+    "apellido": "Fernandez",
+    "edad": 22,
+    "pais": "Argentina"
+    },
+    {
+    "nombre": "Pipo",
+    "apellido": "Gomez",
+    "edad": 20,
+    "pais": "Argentina"
+    },
+    {
+    "nombre": "Pablo",
+    "apellido": "Fernandez",
+    "edad": 30,
+    "pais": "Argentina"
+    }
+]
