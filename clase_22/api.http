@@ -1,0 +1,18 @@
+# GET http://localhost:8000/users
+
+# ### 
+
+# POST http://localhost:8000/user
+
+GET http://localhost:8000/product
+
+###
+
+POST http://localhost:8000/product
+content-type: application/json
+
+{
+    "name": "Gift Card de Nike",
+    "price": 20,
+    "brand": "Nike"
+}
