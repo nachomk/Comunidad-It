@@ -31,15 +31,14 @@ app.get("/products" , async ( req , res ) => {
     await desconectarDB();
     res.json(products)
 })
-app.get("/product" , async ( req , res ) => {
+app.post("/products" , async ( req , res ) => {
     const { name , price , brand } = req.body;
     await conectarDB();
-    const product = new Product({ name , price , brand});
+    const product = new Products({ name , price , brand});
     const newProduct = await product.save();
     await desconectarDB()
     res.json(newProduct);
 })
-
 
 app.listen(PORT, () => {
     console.log(`Corriendo servidor ${PORT}`);
