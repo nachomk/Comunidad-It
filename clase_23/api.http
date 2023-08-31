@@ -1,0 +1,36 @@
+GET http://localhost:8000/users
+
+### 
+
+POST http://localhost:8000/user
+Content-Type: application/json
+
+{
+    "name": "Gift Card Adidas",
+    "price": 15,
+    "brand": "Adidas"
+}
+
+###
+
+PUT http://localhost:8000/user/64f11e5a5a30f073b2409667
+Content-Type: application/json
+
+{
+    "name": "Gift Card MercadoLibre",
+    "price": 200,
+    "brand": "MercadoLibre"
+}
+
+# GET http://localhost:8000/products
+
+# ###
+
+# POST http://localhost:8000/products
+# content-type: application/json
+
+# {
+#     "name": "Gift Card de Nike",
+#     "price": 20,
+#     "brand": "Nike"
+# }
