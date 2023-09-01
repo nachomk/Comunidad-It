@@ -1,8 +1,8 @@
-GET http://localhost:8000/users
+GET http://localhost:8000/products
 
 ### 
 
-POST http://localhost:8000/user
+POST http://localhost:8000/localhost:8000/product
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:8000/user/64f11e5a5a30f073b2409667
+PUT http://localhost:8000/product/64f11e5a5a30f073b2409667
 Content-Type: application/json
 
 {

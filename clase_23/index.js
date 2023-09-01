@@ -9,10 +9,10 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/users' , userController.getAll);
-app.post('/user' , userController.create);
-app.put('/user/:id' , userController.update);
-app.delete('/user/:id' , userController.deleteProduct);
+app.get('/products' , userController.getAll);
+app.post('/product' , userController.create);
+app.put('/product/:id' , userController.update);
+app.delete('/product/:id' , userController.deleteProduct);
 
 app.listen(PORT, () => {
     console.log(`Corriendo servidor ${PORT}`);
